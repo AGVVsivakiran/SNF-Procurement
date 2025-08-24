@@ -40,3 +40,17 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+#vs
+.vs
+.vs/ProjectSettings.json
+.vs/slnx.sqlite
+.vs/SNF-Procurement/CopilotIndices/0.2.1648.49400/CodeChunks.db
+.vs/SNF-Procurement/CopilotIndices/0.2.1648.49400/CodeChunks.db-shm
+.vs/SNF-Procurement/CopilotIndices/0.2.1648.49400/CodeChunks.db-wal
+.vs/SNF-Procurement/CopilotIndices/0.2.1648.49400/SemanticSymbols.db
+.vs/SNF-Procurement/CopilotIndices/0.2.1648.49400/SemanticSymbols.db-shm
+.vs/SNF-Procurement/CopilotIndices/0.2.1648.49400/SemanticSymbols.db-wal
+.vs/SNF-Procurement/FileContentIndex/65330924-952f-4b6b-9654-e2e4ac364f95.vsidx
+.vs/SNF-Procurement/FileContentIndex/942cf215-8649-4d47-9fb8-3c5640438988.vsidx
+.vs/SNF-Procurement/FileContentIndex/90a3c2d4-536f-46c6-8dda-cef5d6e97ad8.vsidx
