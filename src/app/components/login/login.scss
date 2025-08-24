@@ -67,15 +67,21 @@
     font-weight: 500;
 }
 
-.email {
-    position:relative;
-    padding-left: 5px;
-    
-    &::before{
-        position: absolute;
-        content: '\F32F';
-        font-family: '';
-        top: 0;
-        left: 0;
-    }
+
+.input-group-custom {
+    position: relative; 
+}
+
+.input-group-custom .form-control {
+    padding-left: 2.5rem;
+    background: #f3f3f5!important;
+}
+
+.input-group-custom .input-icon {
+    position: absolute;
+    left: 0.75rem;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 3;
+    color: #155dfc !important;
 }
