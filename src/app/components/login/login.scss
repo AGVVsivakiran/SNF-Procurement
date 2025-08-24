@@ -1,4 +1,4 @@
-* {
+.login {
     background-color: #e4effe; 
     margin: 0;  
     padding: 0;  
@@ -19,25 +19,63 @@
     p:nth-child(3){
         color: #1447e6;
         font-weight: 600;
+        margin:0;
     } 
     p:nth-child(4){
         color: #155dfc;
+        margin-bottom: 5px;
     }
     img{
         width:45px;
         height:45px;
         margin:auto;
+        background: #fffb0a;
+    border-radius: 50%;
+    padding: 5px;
+    mix-blend-mode: luminosity;
     }
 }
 .login-container{
-    width: 400px;
-    height: 400px;
+    padding: 20px;
+    margin: 20px;
     background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; 
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid #ccc;
+    justify-content: center; 
+    border: 1px solid #bddaff;
+    max-width: 375px; 
+    width: 100%!important; 
+    transition: .4s ease-in-out;
+    
+    h6{
+        color: #1c398e !important;
+        font-weight: 400 !important;
+    }
+    &:hover{
+        box-shadow: 0 0 15px rgba(189,218,255, 0.2);
+    }
+
+    label, .form-control{
+        font-size: 12px;
+        font-weight: 600;
+    }
+}
+
+.btn{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.email {
+    position:relative;
+    padding-left: 5px;
+    
+    &::before{
+        position: absolute;
+        content: '\F32F';
+        font-family: '';
+        top: 0;
+        left: 0;
+    }
 }
