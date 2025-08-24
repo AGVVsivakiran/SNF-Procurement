@@ -1,6 +1,5 @@
 * {
-    background-color: #e4effe;
-    height: 100vh;
+    background-color: #e4effe; 
     margin: 0;  
     padding: 0;  
 }
@@ -12,7 +11,24 @@
     height: 100vh;
     width: 100%;
 }
-
+.login-header{
+    h2{
+        color:#1c398e;
+        font-weight:700;
+    }
+    p:nth-child(3){
+        color: #1447e6;
+        font-weight: 600;
+    } 
+    p:nth-child(4){
+        color: #155dfc;
+    }
+    img{
+        width:45px;
+        height:45px;
+        margin:auto;
+    }
+}
 .login-container{
     width: 400px;
     height: 400px;
