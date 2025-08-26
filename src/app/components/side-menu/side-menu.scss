@@ -1,0 +1,36 @@
+:root{
+    --sideheader:16px;
+    --sidedep: 10px;
+    --blue:#155dfc;
+    --borderblue:#bedbff;
+}
+.starter{
+}
+
+.starter .bg-blue{
+    background-color: var(--blue);
+    width: 45px;
+    height: 45px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+img{
+
+}
+}
+
+.maintitle{
+h2{
+font-size: var(--sideheader);
+font-weight: 700;
+color: var(--blue);
+} 
+p{
+    font-size: var(--sidedep);
+    font-weight: 400;
+    color: var(--blue);
+    line-height: 1px;
+}
+
+}
