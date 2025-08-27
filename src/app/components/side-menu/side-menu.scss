@@ -1,16 +1,17 @@
-:root{
-    --sideheader:16px;
-    --sidedep: 10px;
-    --blue:#155dfc;
-    --borderblue:#bedbff;
+.borderend{
+    border-right: 1px solid var(--borderblue);  
+    height: 100vh;  
 }
 .starter{
+    height: 50px;
+    border-bottom: 1px solid var(--borderblue);  
+    padding: 45px 17px !important;
 }
 
 .starter .bg-blue{
-    background-color: var(--blue);
-    width: 45px;
-    height: 45px;
+    background-color: var(--borderblue);
+    width: 40px;
+    height: 40px;
     border-radius: 12px;
     display: flex;
     justify-content: center;
@@ -21,6 +22,7 @@ img{
 }
 
 .maintitle{
+    height:35px;
 h2{
 font-size: var(--sideheader);
 font-weight: 700;
@@ -32,5 +34,15 @@ p{
     color: var(--blue);
     line-height: 1px;
 }
-
 }
+
+.details{
+    h3{
+        font-size: 14px;
+        letter-spacing: .5px;
+    }
+    p{
+        font-size: 12px;
+        color: gray;
+    }
+    }
