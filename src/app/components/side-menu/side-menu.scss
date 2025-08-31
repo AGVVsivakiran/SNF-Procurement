@@ -2,13 +2,17 @@
     border-right: 1px solid var(--borderblue);  
     height: 100vh;  
 }
-.starter{
+.box{
     height: 50px;
     border-bottom: 1px solid var(--borderblue);  
     padding: 45px 17px !important;
 }
 
-.starter .bg-blue{
+.borderbottom{
+    padding-bottom: 3.6rem !important;
+}
+
+.box .bg-blue{
     background-color: var(--borderblue);
     width: 40px;
     height: 40px;
@@ -40,9 +44,21 @@ p{
     h3{
         font-size: 14px;
         letter-spacing: .5px;
+        margin: 0 0 1px;
     }
     p{
         font-size: 12px;
         color: gray;
+        margin: 0 0 10px;
     }
     }
+
+    .professional{
+        background: var(--success);
+        border: none;
+        border-radius: 8px;
+        color: var(--text-success)!important;
+        font-size: 12px;
+        font-weight: 500;
+        transform: translate(-9.1rem, 2.3rem);
+    } 
