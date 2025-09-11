@@ -62,3 +62,26 @@ p{
         font-weight: 500;
         transform: translate(-9.1rem, 2.3rem);
     } 
+
+    .nav-item{
+        padding:  0 !important;
+        &.active-link{
+            background-color: #000;
+        }
+    }
+
+    .tabstyle{
+        span{
+            font-size:12px;
+            font-weight: 500;
+            color: #333;
+        }
+        p{
+            font-size:12px;
+            font-weight: 500;
+            color: grey;
+            white-space: nowrap;
+        }
+
+
+    }

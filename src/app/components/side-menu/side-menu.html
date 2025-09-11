@@ -22,31 +22,32 @@
 </div>
 <div class="row m-1 vh-100"> 
     <ul class="nav flex-column">
-        <li class="nav-item" >
-            <a href="#" class="d-flex align-items-center gap-3 nav-link p-0">
-                <i class="bi bi-house-door"></i>
-                <span>
-                    <span>Dashboard</span>
-                    <p>Overview & metrics</p>
-                </span>
+        <li class="nav-item" routerLinkActive="active-link">
+            <a class="d-flex align-items-center gap-3 nav-link p-0" routerLink="dashboard">
+              <i class="bi bi-house-door"></i>
+              <div class="tabstyle">
+                <span>Dashboard</span>
+                <p>Overview & metrics</p>
+              </div>
             </a>
-        </li>
+          </li>
+          
         <li class="nav-item" >
-            <a href="#" class="d-flex align-items-center gap-3 nav-link p-0">
+            <a  class="d-flex align-items-center gap-3 nav-link p-0">
                 <i class="bi bi-plus-circle"></i>
-                <span>
+                <div class="tabstyle">
                     <span>Create Proposal</span>
                     <p>New procurement request</p>
-                </span>
+                </div>
             </a>
         </li>
         <li class="nav-item" >
-            <a href="#" class="d-flex align-items-center gap-3 nav-link p-0">
+            <a class="d-flex align-items-center gap-3 nav-link p-0">
                 <i class="bi bi-clipboard"></i>
-                <span>
+                <div class="tabstyle">
                     <span>My Proposals</span>
                     <p>Track your requests</p>
-                </span>
+                </div>
             </a>
         </li>
         <li></li>
