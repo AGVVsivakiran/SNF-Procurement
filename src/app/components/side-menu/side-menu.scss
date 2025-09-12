@@ -83,5 +83,34 @@ p{
             white-space: nowrap;
         }
 
+    }
 
+    .menudown{
+        position:fixed;
+        bottom: 20px!important;
+        border-top: 1px solid var(--borderblue);  
+        li:first-child{
+            font-size: 12px!important;
+            font-weight:500!important;
+      
+        i{
+            color:grey;
+            &::before{
+                font-size: 16px!important;
+            }
+        }
+    }
+    li:last-child{
+        font-size: 12px!important;
+        font-weight:500!important;
+        color:red;
+  
+    i{
+        color:red;
+        &::before{
+            font-size: 16px!important;
+        }
+    }
+
+}
     }
